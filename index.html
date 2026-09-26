@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Premices.dev — Premices Jacedan Soulouka-Baka Bitsindou</title>
+<meta name="description" content="Premices.dev, le site personnel de Premices Jacedan Soulouka-Baka Bitsindou, étudiant développeur web.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%232F63E0'/%3E%3Ctext x='50' y='68' font-family='Arial,sans-serif' font-weight='700' font-size='56' fill='white' text-anchor='middle'%3EP%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="logo" aria-label="Retour en haut">Premices<span class="logo-dot">.dev</span></a>
+    <nav class="main-nav" aria-label="Navigation principale">
+      <a href="#about">À propos</a>
+      <a href="#skills">Compétences</a>
+      <a href="#projects">Projets</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Changer de thème">
+      <span class="theme-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero wrap">
+    <div class="hero-text-col">
+      <p class="hero-label">Étudiant Développeur Web</p>
+      <h1 class="hero-name">Premices Jacedan<br>Soulouka&#8209;Baka Bitsindou</h1>
+      <p class="hero-text">
+        Je conçois et développe des sites web du côté design à la logique applicative.
+        Mon premier projet complet, Cubic Infra, m'a servi de terrain d'apprentissage ;
+        Premices.dev est la prochaine étape, pensée simple et efficace.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+        <a href="contact.html" class="btn btn-accent">Me contacter</a>
+      </div>
+    </div>
+    <div class="hero-photo-col">
+      <img src="img/premices.jpg" alt="Photo de Premices Jacedan Soulouka-Baka Bitsindou" class="hero-photo">
+    </div>
+  </section>
+
+  <section id="about" class="about wrap reveal">
+    <div class="section-head">
+      <h2>À propos</h2>
+    </div>
+    <div class="about-grid">
+      <p class="about-text">
+        Étudiant en développement web, je m'intéresse à la conception d'interfaces claires
+        et à la logique qui fait fonctionner les applications que j'utilise au quotidien.
+        Après avoir construit un premier projet complet en PHP — Cubic Infra, une plateforme
+        de gestion pour un serveur de jeu — je continue de renforcer mes bases en HTML, CSS
+        et JavaScript, avec l'envie de créer des expériences web simples et bien pensées.
+      </p>
+      <dl class="about-facts">
+        <div>
+          <dt>Formation</dt>
+          <dd>Développement web</dd>
+        </div>
+        <div>
+          <dt>Premier projet</dt>
+          <dd>Cubic Infra (PHP)</dd>
+        </div>
+        <div>
+          <dt>Disponibilité</dt>
+          <dd>Stage / alternance</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <section id="skills" class="skills wrap reveal">
+    <div class="section-head">
+      <h2>Compétences</h2>
+    </div>
+    <ul class="skills-list">
+      <li class="skill-chip">
+        <span class="skill-name">HTML</span>
+        <span class="skill-note">structure &amp; sémantique</span>
+      </li>
+      <li class="skill-chip">
+        <span class="skill-name">CSS</span>
+        <span class="skill-note">mise en page &amp; responsive</span>
+      </li>
+      <li class="skill-chip">
+        <span class="skill-name">JavaScript</span>
+        <span class="skill-note">interactivité</span>
+      </li>
+      <li class="skill-chip">
+        <span class="skill-name">Git</span>
+        <span class="skill-note">suivi de versions</span>
+      </li>
+    </ul>
+  </section>
+
+  <section id="projects" class="projects wrap reveal">
+    <div class="section-head">
+      <h2>Projets</h2>
+    </div>
+
+    <article class="project-feature">
+      <div class="project-info">
+        <p class="project-kicker">Projet académique</p>
+        <h3>Cubic Infra</h3>
+        <p class="project-desc">
+          Cubic Infra est une plateforme web développée en PHP pour la gestion d'un serveur
+          de jeu en ligne. Le site permet aux joueurs de créer un compte, consulter un
+          classement, acheter des articles dans une boutique avec panier et facturation,
+          et propose un back-office pour administrer les produits, les actualités et les
+          utilisateurs. Ce projet m'a permis de manipuler l'authentification, les sessions,
+          une base de données MySQL et la construction d'une interface complète de bout en
+          bout.
+        </p>
+        <ul class="project-tags">
+          <li>PHP</li>
+          <li>MySQL</li>
+          <li>Authentification</li>
+          <li>Boutique &amp; panier</li>
+          <li>Back&#8209;office admin</li>
+        </ul>
+      </div>
+      <ul class="project-features">
+        <li>Compte utilisateur &amp; connexion sécurisée</li>
+        <li>Boutique avec panier et facturation</li>
+        <li>Classement des joueurs</li>
+        <li>Gestion des actualités</li>
+        <li>Back&#8209;office administrateur</li>
+      </ul>
+    </article>
+  </section>
+
+</main>
+
+<footer class="site-footer wrap">
+  <p>&copy; <span id="year"></span> Premices Jacedan Soulouka-Baka Bitsindou</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
